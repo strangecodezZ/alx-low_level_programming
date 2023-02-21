@@ -1,13 +1,20 @@
-#include <stdio.h>
 #include "main.h"
-/*
- * Program that prints "_putcahr"
- *
- */
 
-int main (void)
+/**
+* main - Print the word "_putchar"
+*
+* Return: Always 0 (Success)
+*/
+
+int main(void)
 {
-	printf("_putchar");
+	int i;
+	char p[] = "_putchar";
 
-		return 0;
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
+	return (0);
 }
